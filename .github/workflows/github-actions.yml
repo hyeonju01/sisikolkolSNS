@@ -41,7 +41,7 @@ jobs:
       with:
         ## aws ec2 public ipv4 dns
         host: ${{ secrets.HOST }}
-        username: ${{ secrets.USERNAME }}
+        username: ubuntu
         key: ${{ secrets.KEY }}
         script: |
             sudo docker rm -f web
