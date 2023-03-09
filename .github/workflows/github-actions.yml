@@ -46,5 +46,5 @@ jobs:
         script: |
             sudo docker rm -f web
             sudo docker pull ${{ secrets.DOCKER_REPO }}/sisikolkol-sns-be
-            docker compose up -d
+            docker-compose up -d
             docker image prune -f
