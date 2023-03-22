@@ -12,7 +12,7 @@ public class TestController {
 
     @GetMapping("/buildTest")
     public String success() {
-        return "빌드 성공이랍니다..";
+        return "젠킨스 CICD 테스트가 성공했다면?..";
     }
 
 }
