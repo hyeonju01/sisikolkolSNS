@@ -26,7 +26,7 @@ public class UserEntity {
     @Column(unique = true, nullable = false)
     private String password;
     private String fullName;
-    @Enumerated(EnumType.STRING)
+//    @Enumerated(EnumType.STRING)
     private String role;
     @Column(unique = true, nullable = false)
     private String nickName;
