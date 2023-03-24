@@ -18,7 +18,7 @@ spring:
       matching-strategy: ant_path_matcher
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: localhost
+    url: jdbc:mysql://localhost:8080/
     username: root
     password: password
 
