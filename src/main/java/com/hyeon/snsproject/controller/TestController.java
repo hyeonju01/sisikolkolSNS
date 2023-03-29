@@ -12,7 +12,7 @@ public class TestController {
 
     @GetMapping("/buildTest")
     public String success() {
-        return "2023-03-29 젠킨스 CI/CD 테스트 - 2";
+        return "2023-03-29 젠킨스 CI/CD 테스트 - 3";
     }
 
 }
